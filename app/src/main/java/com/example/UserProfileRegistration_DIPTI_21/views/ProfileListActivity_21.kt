@@ -13,7 +13,7 @@ import com.example.UserProfileRegistration_DIPTI_21.Adapter.ProfileAdapter
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
-class ProfileListActivity : AppCompatActivity() {
+class ProfileListActivity_21 : AppCompatActivity() {
 
     private  lateinit var  profileViewHolder: UserProfileViewModel_21
     private  lateinit var  profileAdapter: ProfileAdapter
@@ -35,13 +35,13 @@ class ProfileListActivity : AppCompatActivity() {
         })
 
     profileAdapter.setOnItemClickListener { userProfiless ->
-        val intent = Intent(this, SingleProfileActivity::class.java)
+        val intent = Intent(this, SingleProfileActivity_21::class.java)
         intent.putExtra("USER_PROFILE",userProfiless)
         startActivity(intent)
     }
 
     profileAdapter.setOnUpdateClickListener { userProfiless ->
-       val intent = Intent(this, UpdateProfileActivity::class.java)
+       val intent = Intent(this, UpdateProfileActivity_21::class.java)
         intent.putExtra("USER_PROFILE",userProfiless)
         startActivity(intent)
     }
@@ -51,7 +51,7 @@ class ProfileListActivity : AppCompatActivity() {
     }
 
         findViewById<FloatingActionButton>(R.id.addProfileBtn).setOnClickListener {
-            val intent = Intent(this, AddProfileActivity::class.java)
+            val intent = Intent(this, AddProfileActivity_21::class.java)
             startActivity(intent)
 
 

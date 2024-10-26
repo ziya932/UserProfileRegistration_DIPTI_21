@@ -9,7 +9,7 @@
     app:cardCornerRadius="15dp"
     app:cardElevation="10dp"
     app:cardMaxElevation="10dp"
-    tools:context=".views.SingleProfileActivity">
+    tools:context=".views.SingleProfileActivity_21">
 
 
     <LinearLayout

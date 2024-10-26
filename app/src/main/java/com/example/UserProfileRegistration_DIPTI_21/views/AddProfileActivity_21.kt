@@ -12,7 +12,7 @@ import com.example.UserProfileRegistration_DIPTI_21.Models.UserProfile_21
 import com.example.UserProfileRegistration_DIPTI_21.viewModel.UserProfileViewModel_21
 import java.util.Calendar
 
-class AddProfileActivity : AppCompatActivity() {
+class AddProfileActivity_21 : AppCompatActivity() {
     private  lateinit var   profileViewModel: UserProfileViewModel_21
     private  lateinit var  nameTxt:EditText
     private  lateinit var  emailTxt:EditText

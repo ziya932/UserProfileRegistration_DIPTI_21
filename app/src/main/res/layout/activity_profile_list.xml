@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/ziya2"
     android:padding="10dp"
-    tools:context=".views.ProfileListActivity">
+    tools:context=".views.ProfileListActivity_21">
 
 
     <androidx.recyclerview.widget.RecyclerView

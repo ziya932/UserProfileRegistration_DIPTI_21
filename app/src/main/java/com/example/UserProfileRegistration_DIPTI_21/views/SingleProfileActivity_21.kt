@@ -10,7 +10,7 @@ import com.example.UserProfileRegistration_DIPTI_21.R
 import com.example.UserProfileRegistration_DIPTI_21.viewModel.UserProfileViewModel_21
 
 
-class SingleProfileActivity : AppCompatActivity() {
+class SingleProfileActivity_21 : AppCompatActivity() {
 
     private  lateinit var  userProfile21: UserProfile_21
     private lateinit var  nameTxt: TextView
@@ -41,7 +41,7 @@ class SingleProfileActivity : AppCompatActivity() {
         deleteBtn = findViewById(R.id.deleteBtn)
 
         updateBtn.setOnClickListener {
-            val intent = android.content.Intent(this, UpdateProfileActivity::class.java)
+            val intent = android.content.Intent(this, UpdateProfileActivity_21::class.java)
             intent.putExtra("USER_PROFILE", userProfile21)
             startActivity(intent)
         }

@@ -12,7 +12,7 @@ import com.example.UserProfileRegistration_DIPTI_21.viewModel.UserProfileViewMod
 
 import java.util.Calendar
 
-class UpdateProfileActivity : AppCompatActivity() {
+class UpdateProfileActivity_21 : AppCompatActivity() {
     private lateinit var userProfile21: UserProfile_21
     private lateinit var profileViewModel: UserProfileViewModel_21
 

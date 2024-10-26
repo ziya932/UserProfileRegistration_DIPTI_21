@@ -13,16 +13,16 @@
         android:theme="@style/Theme.Job02"
         tools:targetApi="31">
         <activity
-            android:name=".views.SingleProfileActivity"
+            android:name=".views.SingleProfileActivity_21"
             android:exported="false" />
         <activity
-            android:name=".views.UpdateProfileActivity"
+            android:name=".views.UpdateProfileActivity_21"
             android:exported="false" />
         <activity
-            android:name=".views.AddProfileActivity"
+            android:name=".views.AddProfileActivity_21"
             android:exported="false" />
         <activity
-            android:name=".views.ProfileListActivity"
+            android:name=".views.ProfileListActivity_21"
             android:exported="false" />
         <activity
             android:name=".MainActivity_21"
